@@ -1,8 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
-import {router} from "@/router/index.js";
-
 const newsItems = ref([]);
 
 const formatDate = (time) => {
